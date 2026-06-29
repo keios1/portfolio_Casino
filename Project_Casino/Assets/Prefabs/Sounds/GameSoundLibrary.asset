@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e6e5a072512754d8839fd66f2c49c8, type: 3}
+  m_Name: GameSoundLibrary
+  m_EditorClassIdentifier: 
+  uiClick: {fileID: 8300000, guid: 833b88ce99c52824ab694cbc76166948, type: 3}
+  uiOpen: {fileID: 8300000, guid: aede8800cb2ae5f47b20165482ca17ac, type: 3}
+  uiClose: {fileID: 8300000, guid: 7538fc4d251bcca49bd3e28b3f90523c, type: 3}
+  cashSound: {fileID: 8300000, guid: 1383969877f400c48ba0df52bae7752f, type: 3}
+  digitNumber0: {fileID: 8300000, guid: 1345e7688346e3e4399ed1ace309e8a5, type: 3}
+  digitNumber1: {fileID: 8300000, guid: 5c6ecf5dee3a81c49b4f75bf459c2896, type: 3}
+  digitNumber2: {fileID: 8300000, guid: f31f597b844d4d040bcd07e5af7dc661, type: 3}
+  digitNumber3: {fileID: 8300000, guid: aaefe32773de0a74cb444a6b9b37bf48, type: 3}
+  digitNumber4: {fileID: 8300000, guid: fdcbb6bb9a6e87e4aab85034d5b8f9e1, type: 3}
+  digitNumber5: {fileID: 8300000, guid: 4fd2b10aaec43494e9532e14de23a4d2, type: 3}
+  digitNumber6: {fileID: 8300000, guid: 0f23cde2a23cf3346ba0fa48f95dfd83, type: 3}
+  digitNumber7: {fileID: 8300000, guid: 68b33821965428d40b866a1064047772, type: 3}
+  digitNumber8: {fileID: 8300000, guid: d2e0bffe9ce526c459e03f8b7de6dab1, type: 3}
+  digitNumber9: {fileID: 8300000, guid: bf2e04a5335030542bb41d0e8d0adbcf, type: 3}
+  digitNumber10: {fileID: 8300000, guid: 15762051421a3ff4288355b0fb8f575f, type: 3}
+  cardInven: {fileID: 0}
+  cardDeck: {fileID: 0}
+  cardUseDraw: {fileID: 8300000, guid: d508d00299231b941921b175b1a4269d, type: 3}
+  diceRoll: {fileID: 8300000, guid: f363a1e05a82c9d478abb6ecf7f930e4, type: 3}
+  diceClick: {fileID: 8300000, guid: 833b88ce99c52824ab694cbc76166948, type: 3}
+  playerHit: {fileID: 8300000, guid: 7f0e8961dd3926f44aaf790b0e4b07b3, type: 3}
+  enemyHit: {fileID: 8300000, guid: c52b20535cc0078468ed4923661b0b93, type: 3}
+  heal: {fileID: 8300000, guid: 67ff6e4b6b441ec47b37eff5c399d617, type: 3}
+  coinThrow: {fileID: 8300000, guid: 7d8c4a28304804b439876f8fd8e8e036, type: 3}
+  coinLand: {fileID: 8300000, guid: 2d69a8f3065598e4081ea3913a2a53df, type: 3}
+  coinSuccess: {fileID: 0}
+  coinFail: {fileID: 0}
+  slotRolling: {fileID: 8300000, guid: 83e84888e59d0ec47ac5cceaaf16c289, type: 3}
+  slotStop: {fileID: 8300000, guid: d16892c52e4d571458dcf56f70f0d31a, type: 3}

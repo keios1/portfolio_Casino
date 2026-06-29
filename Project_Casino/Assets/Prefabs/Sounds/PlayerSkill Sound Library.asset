@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d94f8d9ed9e1db4eb90c6d070a686b2, type: 3}
+  m_Name: PlayerSkill Sound Library
+  m_EditorClassIdentifier: 
+  shield: {fileID: 8300000, guid: 22a942c335a2f3a48876ff1987a31149, type: 3}
+  shieldBreak: {fileID: 8300000, guid: ea93379216cbe3c40975cf875ea790ac, type: 3}
+  coinThrow: {fileID: 8300000, guid: 7d8c4a28304804b439876f8fd8e8e036, type: 3}
+  coinLand: {fileID: 8300000, guid: 2d69a8f3065598e4081ea3913a2a53df, type: 3}
+  coinSuccess: {fileID: 0}
+  coinFail: {fileID: 0}
+  trumpCardMove: {fileID: 8300000, guid: c1c912a53d1a2f34ba81c81d3741ce5f, type: 3}
+  trumpCardFlip: {fileID: 8300000, guid: 7cead07053984d540bf557166d95e377, type: 3}
+  trumpAttack: {fileID: 8300000, guid: d508d00299231b941921b175b1a4269d, type: 3}
+  skillCast: {fileID: 0}
+  skillSuccess: {fileID: 0}
+  skillFail: {fileID: 0}
+  wheelSpin: {fileID: 8300000, guid: 32991bff2bfeeb845b9d6e26c86839c5, type: 3}
+  healSuccess: {fileID: 8300000, guid: 6cfbaf872448c654b8574cb91fc013be, type: 3}
+  Reflect: {fileID: 8300000, guid: 2cea9692d410a1c42beadfc637c46e1e, type: 3}
+  Nullify: {fileID: 8300000, guid: bea15021b9a8529428ca43f24673cea5, type: 3}
+  Absorb: {fileID: 8300000, guid: 6cfbaf872448c654b8574cb91fc013be, type: 3}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5104fd8a593a6f043bdbbef8d8e2fb6c, type: 3}
+  m_Name: StorySoundLibrary
+  m_EditorClassIdentifier: 
+  Bell: {fileID: 8300000, guid: 99feb10725fd82843a53896c74b04198, type: 3}
+  MailBox: {fileID: 8300000, guid: 7d7ed9a59c038444882b9dc4ed3f4485, type: 3}
+  Letter: {fileID: 8300000, guid: 879a5730ca1924e468dcb3f1bf35facf, type: 3}
+  Boom: {fileID: 8300000, guid: ee388b050972cc043976543f0c1f8c3c, type: 3}
+  Welcome: {fileID: 8300000, guid: bb282f5fb2a622e439d930c391421c77, type: 3}

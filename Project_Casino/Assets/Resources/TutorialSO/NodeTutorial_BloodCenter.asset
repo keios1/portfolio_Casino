@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f69c44fc650a1449b1ac788939dec62, type: 3}
+  m_Name: NodeTutorial_BloodCenter
+  m_EditorClassIdentifier: 
+  pages:
+  - image: {fileID: 21300000, guid: 47b3fcc148b8d224fba114bc7649a813, type: 3}
+    title: "\uD5CC\uD608\uC18C: \uC0DD\uBA85\uACFC \uC7AC\uD654\uC758 \uC704\uD5D8\uD55C
+      \uAC70\uB798"
+    content: "\uC774\uACF3\uC5D0\uC11C\uB294 \uCCB4\uB825\uACFC \uB3C8\uC744 \uB9DE\uBC14\uAFC0
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4!\n[+] \uBC84\uD2BC: \uB3C8\uC744 \uC9C0\uBD88\uD558\uC5EC
+      \uAE4E\uC778 \uD604\uC7AC \uCCB4\uB825\uC744 \uD68C\uBCF5\uD569\uB2C8\uB2E4.\n[-]
+      \uBC84\uD2BC: \uD604\uC7AC \uCCB4\uB825\uC744 \uAE4E\uC544 \uADF8\uB9CC\uD07C\uC758
+      \uB3C8\uC744 \uD68D\uB4DD\uD569\uB2C8\uB2E4.\n\uC8FC\uC758: \uAC70\uB798\uB294
+      10 : 8 \uBE44\uC728\uB85C \uC801\uC6A9\uB429\uB2C8\uB2E4. (\uC608: 10\uC744
+      \uC9C0\uBD88\uD558\uBA74 8\uB9CC \uD68D\uB4DD) \uB2F9\uC7A5 \uD53C\uAC00 \uBAA8\uC790\uB780\uC9C0,
+      \uB3C8\uC774 \uAE09\uD55C\uC9C0 \uC2E0\uC911\uD558\uAC8C \uD310\uB2E8\uD558\uC5EC
+      \uAC70\uB798\uD558\uC138\uC694!"

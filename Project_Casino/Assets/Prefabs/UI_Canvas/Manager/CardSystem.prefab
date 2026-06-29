@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5731267525806693285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3840198459765453339}
+  - component: {fileID: 2752695387568898830}
+  - component: {fileID: 3657146016759854084}
+  m_Layer: 0
+  m_Name: CardSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3840198459765453339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5731267525806693285}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 359, y: 202, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2752695387568898830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5731267525806693285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f36397136f4bd9942b8fff3727d3ec81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  battleManager: {fileID: 0}
+  player: {fileID: 0}
+  cardCollection: {fileID: 0}
+  enemies: []
+  selectedEnemy: {fileID: 0}
+  selectedEnemyButtonClicked: 0
+  selectedEnemyDynamic: {fileID: 0}
+  diceUI: {fileID: 0}
+  cancelAreaObject: {fileID: 6311083427509962953, guid: 236a588bcfdb1374abcd3f08956008a7, type: 3}
+--- !u!114 &3657146016759854084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5731267525806693285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 062213f2a05044f45a7eea112b91285c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handRoot: {fileID: 0}
+  cardPrefab: {fileID: 736263440479585289, guid: eff0e55a15ee7874a9c4e80188a1c155, type: 3}
+  cardManager: {fileID: 0}
+  startCards:
+  - {fileID: 11400000, guid: dea3456db446d6847bd08c6016da898b, type: 2}
+  - {fileID: 11400000, guid: 0ca22f29de6c6264aa20d0d37c87cfd0, type: 2}
+  - {fileID: 11400000, guid: d31977ad7443ab04eb5822184761669c, type: 2}
+  - {fileID: 11400000, guid: 055fd6092e9f3064d960d13f9647ec23, type: 2}
+  - {fileID: 11400000, guid: 9f4fdf0c8ccba934f81c72172defae57, type: 2}
+  - {fileID: 11400000, guid: e601d6cf38326484c83529827e634667, type: 2}
+  - {fileID: 11400000, guid: 2c72878340e8a83458b9ba51a0cba351, type: 2}
+  - {fileID: 11400000, guid: e00d96060e5d0fa429da8c0f66a4f288, type: 2}
+  maxHandWidth: 850
+  maxSpacing: 75
+  curveHeight: 55
+  maxAngle: 15
+  centerY: -80
+  curvePower: 1.5
+  hoverSidePush: 100
+  hoverStraightenAngle: 0
+  hoverTargetY: 120
+  hoverScale: 2
+  hoverAreaYMin: -180
+  hoverAreaYMax: 35
+  hoverDeadZone: 8
+  hoverMaxXDistance: 80

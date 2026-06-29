@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25bff2e1fe94a854aa86450b9ffb2e21, type: 3}
+  m_Name: BigWheelEnemyDataBoss_01
+  m_EditorClassIdentifier: 
+  enemyName: "\uBE45\uD720\uAC00"
+  enemyType: 0
+  maxHP: 70
+  rewardCoin: 300
+  wheelCount: 6
+  damage: 15
+  phase2BGM: {fileID: 8300000, guid: b39449e6d3a21b34ca69d5a7b919d62b, type: 3}
+  desperationBGM: {fileID: 8300000, guid: dfee2c1ec519fac40a6dd29b6cb71aff, type: 3}
+  bgmFadeTime: 1.5

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f69c44fc650a1449b1ac788939dec62, type: 3}
+  m_Name: NodeTutorial_Shop
+  m_EditorClassIdentifier: 
+  pages:
+  - image: {fileID: 21300000, guid: 6ab988141215ffb468bd875e87c8bcfb, type: 3}
+    title: "\uC0C1\uC810: \uC0C8\uB85C\uC6B4 \uCE74\uB4DC\uB97C \uAD6C\uB9E4\uD558\uC138\uC694!"
+    content: "\uC0C1\uC810\uC5D0\uC11C\uB294 \uC9C4\uC5F4\uB41C \uCE74\uB4DC\uB97C
+      \uACE8\uB77C \uB3C8\uC744 \uC9C0\uBD88\uD558\uACE0 \uB371\uC5D0 \uCD94\uAC00\uD560
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4!\n\uC6D0\uD558\uB294 \uCE74\uB4DC\uAC00 \uC5C6\uB2E4\uBA74
+      \uC88C\uCE21\uC758 [\uB9AC\uB864] \uBC84\uD2BC\uC744 \uB20C\uB7EC\uBCF4\uC138\uC694.
+      \uC77C\uC815 \uAE08\uC561\uC744 \uC9C0\uBD88\uD558\uBA74 \uC9C4\uC5F4\uB41C
+      \uBAA8\uB4E0 \uD488\uBAA9\uC774 \uC0C8\uB85C\uC6B4 \uCE74\uB4DC\uB85C \uAC31\uC2E0\uB429\uB2C8\uB2E4.
+      \uB3C8\uC774 \uB109\uB109\uD558\uB2E4\uBA74 \uB9AC\uB864\uC744 \uD65C\uC6A9\uD574
+      \uC644\uBCBD\uD55C \uB371\uC744 \uC644\uC131\uD574 \uBCF4\uC138\uC694!"

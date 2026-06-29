@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f69c44fc650a1449b1ac788939dec62, type: 3}
+  m_Name: BattleTutorial_Start
+  m_EditorClassIdentifier: 
+  pages:
+  - image: {fileID: 0}
+    title: "\uB9C8\uB140"
+    content: "\uB208\uC55E\uC5D0 \uAC15\uB825\uD55C \uC0C1\uB300\uAC00 \uB098\uD0C0\uB0AC\uC2B5\uB2C8\uB2E4!\n\uC804\uD22C\uB97C
+      \uC900\uBE44\uD558\uC138\uC694."
+    progressType: 0
+    targetButtonName: 
+    showArrow: 0
+    requiredActionName: 
+    wrongActionMessage: 
+    customEventName: 
+  - image: {fileID: 0}
+    title: "\uB9C8\uB140"
+    content: "\uB9E4 \uD134 \uC2DC\uC791 \uC2DC \uD589\uB3D9\uC5D0 \uC0AC\uC6A9\uD560
+      \uC8FC\uC0AC\uC704\uB97C \uAD74\uB9BD\uB2C8\uB2E4.\n\uC774 \uCE78\uC5D0 \uC8FC\uC0AC\uC704\uAC00
+      \uBC30\uCE58\uB429\uB2C8\uB2E4."
+    progressType: 0
+    targetButtonName: DiceTarget
+    showArrow: 1
+    requiredActionName: 
+    wrongActionMessage: 
+    customEventName: 
+  - image: {fileID: 0}
+    title: "\uB9C8\uB140"
+    content: "\uD0C0\uACA9 \uCE74\uB4DC\uB97C \uB4DC\uB798\uADF8\uD574\uC11C \uD654\uBA74
+      \uC911\uC559\uC73C\uB85C \uC62E\uACA8\uBCF4\uC138\uC694."
+    progressType: 3
+    targetButtonName: HandPanel, CardDropArea
+    showArrow: 1
+    requiredActionName: Basic_Card
+    wrongActionMessage: "\uBA3C\uC800 \uACF5\uACA9 \uCE74\uB4DC\uB97C \uB4DC\uB798\uADF8\uD574\uC57C
+      \uD569\uB2C8\uB2E4!"
+    customEventName: 
+  - image: {fileID: 0}
+    title: "\uB9C8\uB140"
+    content: "\uCE74\uB4DC\uB97C \uC911\uC559\uC73C\uB85C \uC62E\uACBC\uC2B5\uB2C8\uB2E4.
+      \n\uC774\uC81C \uC9C0\uBD88\uD560 \uC8FC\uC0AC\uC704\uB97C \uD074\uB9AD\uD558\uC138\uC694."
+    progressType: 3
+    targetButtonName: DiceTarget, DicePanel
+    showArrow: 1
+    requiredActionName: SelectDice
+    wrongActionMessage: "\uBC29\uAE08 \uB0B8 \uCE74\uB4DC\uC5D0 \uC0AC\uC6A9\uD560
+      \uC8FC\uC0AC\uC704\uB97C \uC120\uD0DD\uD558\uC138\uC694!"
+    customEventName: 
+  - image: {fileID: 0}
+    title: "\uB9C8\uB140"
+    content: "\uC88B\uC544\uC694! \uC8FC\uC0AC\uC704\uB97C \uC120\uD0DD\uD588\uC2B5\uB2C8\uB2E4.\n\uC774\uC81C
+      \uACF5\uACA9\uD560 \uC801\uC744 \uD074\uB9AD\uD558\uC138\uC694."
+    progressType: 3
+    targetButtonName: EnemyClick
+    showArrow: 1
+    requiredActionName: SelectEnemy
+    wrongActionMessage: "\uC801\uC744 \uD074\uB9AD\uD574\uC11C \uACF5\uACA9\uC744
+      \uC9C4\uD589\uD574 \uC8FC\uC138\uC694!"
+    customEventName: ReadyForAttackTutorial
+  - image: {fileID: 0}
+    title: "\uB9C8\uB140"
+    content: "\uACF5\uACA9\uC744 \uC131\uACF5\uC801\uC73C\uB85C \uB9C8\uCCE4\uC2B5\uB2C8\uB2E4.\n\uD134
+      \uC885\uB8CC \uBC84\uD2BC\uC744 \uB20C\uB7EC \uC801\uC5D0\uAC8C \uCC28\uB840\uB97C
+      \uB118\uAE30\uC138\uC694."
+    progressType: 3
+    targetButtonName: 'TurnEndTarget, EndTurn '
+    showArrow: 1
+    requiredActionName: EndTurn
+    wrongActionMessage: "\uACF5\uACA9\uC744 \uB9C8\uCCE4\uC73C\uB2C8 \uD134 \uC885\uB8CC\uB97C
+      \uB20C\uB7EC\uC8FC\uC138\uC694!"
+    customEventName: EnemyTurnStart
+  - image: {fileID: 0}
+    title: "\uB9C8\uB140"
+    content: "\uC801\uC758 \uD134\uC785\uB2C8\uB2E4.\n\uC801\uC740 \uC815\uD574\uC9C4
+      \uD328\uD134\uC73C\uB85C \uACF5\uACA9\uC744 \uC9C4\uD589\uD569\uB2C8\uB2E4."
+    progressType: 2
+    targetButtonName: 
+    showArrow: 0
+    requiredActionName: 
+    wrongActionMessage: 
+    customEventName: WaitForEnemyAttack
+  - image: {fileID: 0}
+    title: "\uB9C8\uB140"
+    content: "\uC557, \uC801\uC774 \uBE59\uACE0\uB97C \uC644\uC131\uD588\uC2B5\uB2C8\uB2E4!\n\uC801\uC758
+      \uACF5\uACA9\uC73C\uB85C \uCCB4\uB825\uC774 \uAC10\uC18C\uD588\uC2B5\uB2C8\uB2E4!"
+    progressType: 0
+    targetButtonName: TopBarPanel
+    showArrow: 0
+    requiredActionName: 
+    wrongActionMessage: 
+    customEventName: 
+  - image: {fileID: 0}
+    title: "\uB9C8\uB140"
+    content: "\uC870\uAE08 \uC704\uD5D8\uD55C \uC0C1\uD669\uC774\uB124\uC694!\n\uAC15\uB825\uD55C
+      \uD2B8\uB77C\uC774\uC5C4\uD504 \uCE74\uB4DC\uC640 \uD544\uC694\uD55C \uC8FC\uC0AC\uC704\uB97C
+      \uB4DC\uB9B4\uAC8C\uC694."
+    progressType: 0
+    targetButtonName: 
+    showArrow: 1
+    requiredActionName: 
+    wrongActionMessage: 
+    customEventName: GiveTriumphAndDice
+  - image: {fileID: 0}
+    title: "\uB9C8\uB140"
+    content: "\uBC29\uAE08 \uBC1B\uC740 \uD2B9\uBCC4\uD55C \uCE74\uB4DC, '\uD2B8\uB77C\uC774\uC5C4\uD504'\uB97C
+      \uB4DC\uB798\uADF8\uD574\uC11C \uC911\uC559\uC73C\uB85C \uC62E\uACA8\uBCF4\uC138\uC694!"
+    progressType: 3
+    targetButtonName: HandPanel, CardDropArea
+    showArrow: 1
+    requiredActionName: SelectTriumph
+    wrongActionMessage: "\uD2B8\uB77C\uC774\uC5C4\uD504 \uCE74\uB4DC\uB97C \uC0AC\uC6A9\uD574
+      \uC801\uC744 \uBB3C\uB9AC\uCE58\uC138\uC694!"
+    customEventName: 
+  - image: {fileID: 0}
+    title: "\uB9C8\uB140"
+    content: "\uC774\uC81C \uC0AC\uC6A9\uD560 \uC8FC\uC0AC\uC704\uB97C \uC120\uD0DD\uD558\uC138\uC694!"
+    progressType: 3
+    targetButtonName: DiceTarget, DicePanel
+    showArrow: 1
+    requiredActionName: SelectDice
+    wrongActionMessage: 
+    customEventName: 
+  - image: {fileID: 0}
+    title: "\uB9C8\uB140"
+    content: "\uC8FC\uC0AC\uC704\uB97C \uC120\uD0DD\uD588\uC2B5\uB2C8\uB2E4! \uC801\uC744
+      \uD074\uB9AD\uD558\uC5EC \n\uD2B8\uB77C\uC774\uC5C4\uD504 \uACF5\uACA9\uC744
+      \uAC00\uD558\uC138\uC694!"
+    progressType: 3
+    targetButtonName: EnemyClick
+    showArrow: 1
+    requiredActionName: SelectEnemy
+    wrongActionMessage: 
+    customEventName: ReadyForAttackTutorial
+  - image: {fileID: 0}
+    title: "\uB9C8\uB140"
+    content: "\uC644\uBCBD\uD574\uC694!\n\uAC15\uB825\uD55C \uD2B8\uB77C\uC774\uC5C4\uD504
+      \uACF5\uACA9\uC73C\uB85C \uC801\uC744 \uBB34\uC0AC\uD788 \uC4F0\uB7EC\uB728\uB838\uC2B5\uB2C8\uB2E4!"
+    progressType: 2
+    targetButtonName: 
+    showArrow: 0
+    requiredActionName: 
+    wrongActionMessage: 
+    customEventName: 

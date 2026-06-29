@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6159733de8496924abb63aaf6d1168d3, type: 3}
+  m_Name: Rare_CoinToss
+  m_EditorClassIdentifier: 
+  id: 21001
+  cardSprite: {fileID: 21300000, guid: 3cdfdf6a5b4b0484c8c51c67a9d9c05d, type: 3}
+  cardName: "\uCF54\uC778\uD1A0\uC2A4 2"
+  description: "\uC55E\uBA74 \uD69F\uC218\uB9CC\uD07C \uC8FC\uC0AC\uC704 \uAC12\uC744
+    \uACF1\uD574 \uD53C\uD574\uB97C \uC90D\uB2C8\uB2E4."
+  timing: 0
+  target: 2
+  rarity: 2
+  useLimitType: 1
+  maxUsesPerBattle: 1
+  durability: 2
+  diceCost: 1
+  minDiceSum: 0
+  effect: {fileID: 11400000, guid: c2ba0bdf53ca43446a03adcc84f546d9, type: 2}
+  price: 20
+  cardType: 0

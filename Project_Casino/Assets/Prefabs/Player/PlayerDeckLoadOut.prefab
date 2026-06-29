@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8373975423107339973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7225344896982563368}
+  - component: {fileID: 4220241785834306082}
+  m_Layer: 0
+  m_Name: PlayerDeckLoadOut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7225344896982563368
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8373975423107339973}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 405.00018, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4220241785834306082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8373975423107339973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cc517a3a96a0ed46a60d6ea0c6685e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxDeckSize: 10
+  currentDeck:
+  - {fileID: 11400000, guid: dea3456db446d6847bd08c6016da898b, type: 2}
+  - {fileID: 11400000, guid: d31977ad7443ab04eb5822184761669c, type: 2}
+  - {fileID: 11400000, guid: 0ca22f29de6c6264aa20d0d37c87cfd0, type: 2}
+  - {fileID: 11400000, guid: 3a87a06918c10cc4e80c1294a007b8d1, type: 2}
+  - {fileID: 11400000, guid: 055fd6092e9f3064d960d13f9647ec23, type: 2}
+  - {fileID: 11400000, guid: 2c72878340e8a83458b9ba51a0cba351, type: 2}
+  - {fileID: 11400000, guid: e601d6cf38326484c83529827e634667, type: 2}
+  - {fileID: 11400000, guid: 9f4fdf0c8ccba934f81c72172defae57, type: 2}
+  - {fileID: 11400000, guid: e00d96060e5d0fa429da8c0f66a4f288, type: 2}
+  defaultEquippedCards:
+  - {fileID: 11400000, guid: dea3456db446d6847bd08c6016da898b, type: 2}
+  - {fileID: 11400000, guid: da3cc9f6dd5e9d341b6a309ab8d62fcd, type: 2}
+  cardCatalog:
+  - {fileID: 11400000, guid: dea3456db446d6847bd08c6016da898b, type: 2}
+  - {fileID: 11400000, guid: da3cc9f6dd5e9d341b6a309ab8d62fcd, type: 2}
+  - {fileID: 11400000, guid: 0ca22f29de6c6264aa20d0d37c87cfd0, type: 2}
+  - {fileID: 11400000, guid: 6226d789c1300d94b9ccdca043fa477d, type: 2}
+  - {fileID: 11400000, guid: 055fd6092e9f3064d960d13f9647ec23, type: 2}
+  - {fileID: 11400000, guid: 3a87a06918c10cc4e80c1294a007b8d1, type: 2}
+  - {fileID: 11400000, guid: d31977ad7443ab04eb5822184761669c, type: 2}
+  - {fileID: 11400000, guid: e601d6cf38326484c83529827e634667, type: 2}
+  - {fileID: 11400000, guid: a8bb1ab745aa5274cbb61384d9ba035f, type: 2}
+  - {fileID: 11400000, guid: 9f4fdf0c8ccba934f81c72172defae57, type: 2}
+  - {fileID: 11400000, guid: eecbcfb845df36342bcdcc51d1b97383, type: 2}
+  - {fileID: 11400000, guid: c6a27137de9125943b09f89065b08b10, type: 2}
+  - {fileID: 11400000, guid: 2c72878340e8a83458b9ba51a0cba351, type: 2}
+  - {fileID: 11400000, guid: 8df8ca5306ce28649bf9ca259b0fe689, type: 2}
+  - {fileID: 11400000, guid: 2f9a798bde21d294fbbd4e64d0f4744c, type: 2}
+  - {fileID: 11400000, guid: e00d96060e5d0fa429da8c0f66a4f288, type: 2}
+  - {fileID: 11400000, guid: 15130b8086fac6e4c999c7085d8e3ba3, type: 2}
+  - {fileID: 11400000, guid: 18714d33ac411884ebc84c340d746fa5, type: 2}

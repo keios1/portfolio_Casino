@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0783d78e1fe14d7448aba2fb0ba61122, type: 3}
+  m_Name: FX_TakeCard_
+  m_EditorClassIdentifier: 
+  cardBack: {fileID: 21300000, guid: 7074e426e698a2c4c9df1254742d7ca6, type: 3}
+  cardTwo: {fileID: 21300000, guid: 3edb24472baa5e548a5131f349f4ff5f, type: 3}
+  cardMinus: {fileID: 21300000, guid: 6a7e26b921a88c947bb381c08acedfda, type: 3}
