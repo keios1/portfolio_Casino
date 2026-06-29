@@ -1,4 +1,4 @@
-# 🎲 [Casino] (Turn-based Dice Roguelike)
+# 🎲 [All-in Escape] (Turn-based Dice Roguelike)
 
 덱빌딩 전략과 주사위 기반의 전투를 결합한 턴제 로그라이크 게임입니다. 플레이어는 상황에 맞는 카드를 선택하고, 요구되는 주사위를 슬롯에 배치하여 **'스킬 + 주사위 눈금'**에 비례하는 강력한 데미지로 몬스터를 공략해야 합니다.
 
