@@ -5,7 +5,7 @@
 ## 🎥 Gameplay Preview
 *(아래 이미지를 클릭하시면 유튜브 플레이 영상으로 이동합니다.)*
 
-[![[게임 이름] 플레이 영상](https://img.youtube.com/vi/여기에_유튜브_영상_ID_입력/maxresdefault.jpg)](youtube.com/watch?v=GFSS6Iol7sU&feature=youtu.be)
+[![[게임 이름] 플레이 영상](https://img.youtube.com/vi/여기에_유튜브_영상_ID_입력/maxresdefault.jpg)](https://www.youtube.com/watch?v=GFSS6Iol7sU))
 
 ---
 
